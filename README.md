@@ -164,11 +164,6 @@ Student-Data-Organisation/
 - Database integration using SQLite or MySQL
 
 ---
-
-## 👨‍💻 Author
-
-  **Vishwa**
-
 ## 📄 License
 
 This project is created for educational and learning purposes.
