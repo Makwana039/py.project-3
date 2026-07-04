@@ -2,11 +2,6 @@
 
 # 📚 Student Data Organisation System
 
-## Author
-**Vishwa**
-
----
-
 ## 📖 Project Overview
 
 The **Student Data Organisation System** is a simple command-line application developed in **Python** to manage student records efficiently. It allows users to add, display, update, and delete student information while maintaining a list of unique subjects.
@@ -173,10 +168,6 @@ Student-Data-Organisation/
 ## 👨‍💻 Author
 
 **Vishwa**
-
-Python Developer | Student
-
----
 
 ## 📄 License
 
