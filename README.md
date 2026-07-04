@@ -1,29 +1,29 @@
 # py.project-3
 
-# 🎓 Student Data Organisation
+# 📚 Student Data Organisation
 
-A simple **Python console-based Student Data Organisation System** that allows users to manage student records. This project demonstrates the use of Python data structures such as **lists, dictionaries, tuples, and sets**, along with loops, conditional statements, and string formatting.
+A simple **Python console-based Student Data Organisation System** that allows users to manage student records efficiently using Python data structures such as **lists, dictionaries, sets, and tuples**.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-- ➕ Add Student Records
-- 📋 Display All Students
-- ✏️ Update Student Information
-- 🗑️ Delete Student Records
-- 📚 Display Unique Subjects
-- 🚪 Exit Program
+- ➕ Add Student Record
+- 📋 Display All Student Records
+- ✏️ Update Student Details
+- ❌ Delete Student Record
+- 📖 Display Unique Subjects
+- 🚪 Exit the Program
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python 3.x
+- Python 3
 - Lists
 - Dictionaries
-- Tuples
 - Sets
+- Tuples
 - Loops
 - Conditional Statements
 - String Formatting
@@ -33,21 +33,19 @@ A simple **Python console-based Student Data Organisation System** that allows u
 ## 📂 Project Structure
 
 ```
-Student-Data-Organisation/
-│
-├── student_data.py      # Main Python program
-└── README.md            # Project documentation
+Student_Data_Organisation/
+│── student_data.py
+└── README.md
 ```
 
 ---
 
 ## ▶️ How to Run
 
-1. Install **Python 3.x** on your computer.
+1. Make sure Python 3 is installed.
 2. Download or clone this repository.
-3. Open a terminal or command prompt.
-4. Navigate to the project folder.
-5. Run the program using:
+3. Open a terminal in the project folder.
+4. Run the program:
 
 ```bash
 python student_data.py
@@ -55,57 +53,74 @@ python student_data.py
 
 ---
 
-## 📖 Menu Options
+## 📌 Menu
 
-```
+```text
+======|MENU|======
 1. Add Student
 2. Display All Students
 3. Update Student
 4. Delete Student
-5. Display Unique Subjects
+5. Display Unique Subject
 6. Exit
 ```
 
 ---
 
-## 📋 Student Information Stored
+## 💻 Sample Output
 
-Each student record contains:
+```text
+=========|WELCOME TO STUDENT DATA ORGANISATION|=========
+This program helps you manage student records efficiently.
 
-- Student ID
-- Name
-- Age
-- Grade
-- Date of Birth
-- Subjects
+======|MENU|======
+1. Add Student
+2. Display All Students
+3. Update Student
+4. Delete Student
+5. Display Unique Subject
+6. Exit
+
+Enter your choice: 1
+
+Enter Name: VISHWA
+Enter Age: 17
+Enter Grade: B
+Enter Student ID: 100
+Enter Date of Birth: 03-03-2009
+Enter Subjects (comma-separated): Python, Mathematics, English
+
+Student Added Successfully!
+Name: VISHWA, Age: 17
+Grade: B | ID: 100
+DOB: 03-03-2009
+
+======|MENU|======
+1. Add Student
+2. Display All Students
+3. Update Student
+4. Delete Student
+5. Display Unique Subject
+6. Exit
+
+Enter your choice: 6
+
+Thank you for using the Student Data Organisation!
+Program Ended Successfully.
+```
 
 ---
 
-## 💡 Concepts Used
+## 📚 Concepts Used
 
-This project demonstrates:
-
-- Variables
-- Input/Output
-- Lists
-- Dictionaries
-- Tuples
-- Sets
-- Loops
-- Conditional Statements
-- Functions of String Formatting
-- CRUD Operations (Create, Read, Update, Delete)
-
----
-
-## 🚀 Future Improvements
-
-- Save records to a file (CSV/JSON)
-- Load records automatically when the program starts
-- Search students by ID or Name
-- Validate user inputs
-- Add marks and calculate grades
-- Sort students by name or ID
+- List
+- Dictionary
+- Set
+- Tuple
+- Loops (`while`, `for`)
+- Conditional Statements (`if`, `elif`, `else`)
+- User Input
+- String Formatting (`f-string`, `format()`, `%` formatting)
 
 ---
 
@@ -117,4 +132,4 @@ This project demonstrates:
 
 ## 📄 License
 
-This project is intended for learning and educational purposes.
+This project is created for educational and learning purposes.
